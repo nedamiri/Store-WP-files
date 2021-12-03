@@ -1,0 +1,40 @@
+2021-11-24T16:51:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
+2021-11-24T16:51:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
